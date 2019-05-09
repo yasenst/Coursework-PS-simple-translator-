@@ -12,3 +12,7 @@ d:\my documents\visual studio 2017\Projects\Coursework\Coursework\obj\Debug\Cour
 d:\my documents\visual studio 2017\Projects\Coursework\Coursework\obj\Debug\Coursework.csproj.GenerateResource.Cache
 d:\my documents\visual studio 2017\Projects\Coursework\Coursework\obj\Debug\Coursework.exe
 d:\my documents\visual studio 2017\Projects\Coursework\Coursework\obj\Debug\Coursework.pdb
+d:\my documents\visual studio 2017\Projects\Coursework\Coursework\bin\Debug\english-words.txt
+d:\my documents\visual studio 2017\Projects\Coursework\Coursework\bin\Debug\french-words.txt
+d:\my documents\visual studio 2017\Projects\Coursework\Coursework\bin\Debug\german-words.txt
+d:\my documents\visual studio 2017\Projects\Coursework\Coursework\obj\Debug\Coursework_Content.g.cs

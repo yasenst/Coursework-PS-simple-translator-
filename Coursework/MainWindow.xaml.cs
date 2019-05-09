@@ -27,10 +27,9 @@ namespace Coursework
             initData();
         }
 
-        private const string HomePath = "d:\\My Documents\\Visual Studio 2017\\Projects\\Coursework\\Coursework\\";
-        private const string EnglishWordsPath = HomePath + "english-words.txt";
-        private const string FrenchWordsPath = HomePath + "french-words.txt";
-        private const string GermanWordsPath = HomePath + "german-words.txt";
+        private const string EnglishWordsFileName = "english-words.txt";
+        private const string FrenchWordsFileName = "french-words.txt";
+        private const string GermanWordsFileName = "german-words.txt";
 
         static public Dictionary<int, string> EnglishWords;
         static public Dictionary<int, string> FrenchWords;
@@ -38,9 +37,9 @@ namespace Coursework
 
         static private void initData()
         {
-            EnglishWords = populateData(EnglishWordsPath);
-            FrenchWords = populateData(FrenchWordsPath);
-            GermanWords = populateData(GermanWordsPath);
+            EnglishWords = populateData(EnglishWordsFileName);
+            FrenchWords = populateData(FrenchWordsFileName);
+            GermanWords = populateData(GermanWordsFileName);
         }
 
         static private Dictionary<int,string> populateData(string filename)
